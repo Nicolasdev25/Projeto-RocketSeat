@@ -1,6 +1,12 @@
 <!doctype html>
-<html lang="pt-br" class="">
+<html lang="pt-br">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Projeto</title>
+
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -8,45 +14,54 @@
       rel="stylesheet"
     />
 
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Projeto</title>
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
-    <div id="container">
-      <div id="profile">
+    <main id="container">
+      <!-- Perfil -->
+      <header id="profile">
         <img
           src="./assets/avatar.png"
-          alt="imagem do avatar de teste com fundo branco "
+          alt="Imagem do avatar de teste com fundo branco"
         />
         <p>@NicolasLeão</p>
-      </div>
+      </header>
 
-      <div id="switch" onclick="toggleMode()">
+      <!-- Botão de tema -->
+      <section id="switch" onclick="toggleMode()" aria-label="Alternar tema">
         <button></button>
         <span></span>
-      </div>
+      </section>
 
-      <ul id="lista">
-        <li>
-          <a href="#">Sobre mim</a>
-        </li>
-        <li>
-          <a href="https://github.com/Nicolasdev25" target="_blank"
-            >Acesse Meu Portfolio</a
-          >
-        </li>
-        <li>
-          <a href="https://LinkedIn.com/in/NicolasLeão" target="_blank"
-            >Acesse meu LinkedIn</a
-          >
-        </li>
-        <li>
-          <a href="https://view.page/p/8RM2bo" target="_blank">Fale Comigo</a>
-        </li>
-      </ul>
-      <div id="social-links">
+      <!-- Navegação principal -->
+      <nav>
+        <ul id="lista">
+          <li><a href="#">Sobre mim</a></li>
+
+          <li>
+            <a href="https://github.com/Nicolasdev25" target="_blank">
+              Acesse Meu Portfólio
+            </a>
+          </li>
+
+          <li>
+            <a href="https://LinkedIn.com/in/NicolasLeão" target="_blank">
+              Acesse meu LinkedIn
+            </a>
+          </li>
+
+          <li>
+            <a href="https://view.page/p/8RM2bo" target="_blank">
+              Fale Comigo
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Redes sociais -->
+      <section id="social-links" aria-label="Redes sociais">
         <a href="https://github.com/Nicolasdev25" target="_blank">
           <ion-icon name="logo-github"></ion-icon>
         </a>
@@ -58,9 +73,13 @@
         <a href="http://instagram.com/nicolasnleao" target="_blank">
           <ion-icon name="logo-instagram"></ion-icon>
         </a>
-      </div>
+      </section>
+
+      <!-- Rodapé -->
       <footer>Meu Primeiro Projeto!</footer>
-    </div>
+    </main>
+
+    <!-- Ionicons -->
     <script
       type="module"
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
@@ -70,6 +89,7 @@
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
 
+    <!-- JS -->
     <script src="./script.js"></script>
   </body>
 </html>
