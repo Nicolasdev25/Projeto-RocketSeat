@@ -43,6 +43,35 @@ O DevLinks é um agregador de links para usar como cartão de visitas online.
 
 Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/community/file/1187422022288947321). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
+## O Aprendizado
+
+Inicei o curso no intuito de aprender sobre as tecnologias citadas e me supreendi com o processo todo de aprendizado.
+aprendi à:
+
+Compreender o HTML como a base estrutural da página web.
+Diferenciar <head> e <body>, entendendo que o conteúdo visível sempre fica no body.
+Criar estruturas reais de páginas (menus, headers, conteúdo principal).
+Aplicar boas práticas, melhorando organização, acessibilidade e SEO.
+Entender a hierarquia do DOM e o papel de cada elemento.
+
+Já com o CSS aprendi a:
+
+Conceitos básicos: cores, fontes, espaçamentos, bordas.
+Uso correto de classes e seletores.
+Organização visual com Flexbox:
+display: flex
+flex-direction
+justify-content
+align-items
+gap
+Separação clara entre estrutura (HTML) e estilo (CSS).
+Criação de layouts inspirados em demandas reais.
+Leitura e entendimento de código CSS linha por linha.
+
+No javaScripit:
+Entendimento do JavaScript como responsável pela lógica e comportamento da página.
+Conceitos fundamentais como variaveis, estrutura basica de scripts.
+
 ## :memo: Licença
 
 Esse projeto está sob a licença MIT.
